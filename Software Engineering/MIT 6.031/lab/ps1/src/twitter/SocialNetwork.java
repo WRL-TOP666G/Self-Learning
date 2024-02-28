@@ -55,7 +55,6 @@ public class SocialNetwork {
      *         either authors or @-mentions in the list of tweets.
      */
     public static Map<String, Set<String>> guessFollowsGraph(List<Tweet> tweets) {
-    	// TODO
     	if(tweets == null) {
     		throw new RuntimeException("list of tweets can not be null");
     	}
